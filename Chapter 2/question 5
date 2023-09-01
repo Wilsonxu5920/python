@@ -1,0 +1,6 @@
+speed = 70
+time_intervals = [6, 10, 15]
+
+for time in time_intervals:
+    distance = speed * time
+    print("The car will travel", distance, "miles in", time, "hours.")
