@@ -1,0 +1,11 @@
+name = input('Enter your name: ')
+address = input('Enter your address: ')
+city = input('Enter your city: ')
+major = input('Enter your major: ')
+Zip = 90314
+
+print("Name:", name)
+print("Address:", address)
+print("City:", city)
+print("Major:", major)
+print("Zip:", Zip)

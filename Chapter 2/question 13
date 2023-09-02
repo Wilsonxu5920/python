@@ -1,0 +1,5 @@
+row_length = float(input("Enter the length in feet: "))
+space_1 = float(input("Enter the amount of space in feet: "))
+space_2 = float(input("Enter the amount of space between vines in feet: "))
+vines = (row_length - 2 * space_1) / space_2
+print ("Number of grapevines",int(vines))
