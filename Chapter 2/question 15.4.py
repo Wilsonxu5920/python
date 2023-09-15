@@ -1,15 +1,12 @@
 import turtle
 turtle. showturtle()
-turtle. left(60)
-turtle. forward(100)
-turtle. right(120)
-turtle. forward(100)
-turtle. right(150)
-turtle. forward(57.735)
-turtle. left(60)
-turtle. forward(57.735)
-turtle. left(150)
-turtle. forward(100)
-#turtle.done 
-
-
+turtle. fillcolor('blue')
+turtle. begin_fill()
+turtle. goto(40,80)
+turtle. goto(80,0)
+turtle. goto(40,40)
+turtle. goto(0,0)
+turtle. end_fill()
+turtle. goto(80,0)
+turtle. exitonclick()
+turtle. done
