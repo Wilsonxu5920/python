@@ -1,8 +1,7 @@
 vegetarian = input('Is anyone in your party a vegeterian?')
 vegan = input('Is anyone in your party a vegan?')
 gluten_free = input('Is anyone in your party a gluten-free?')
-print('Here are your choices:')
-
+print('Here are your restaurant choices:')
 if vegetarian != 'yes' and vegan != 'yes' and gluten_free != 'yes':
     print("Joe's Gourmet Burgers")
 
