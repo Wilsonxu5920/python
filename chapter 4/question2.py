@@ -2,12 +2,12 @@ calories_minute = 4.2
 minutes_list = [10, 15, 20, 25, 30]
 
 calories_dict = {}
-
 for minutes in minutes_list:
     calories_burned = minutes * calories_minute
     calories_dict[minutes] = calories_burned
-for minutes, calories in calories_dict.items():
-    print(f"calories burned after {minutes} minutes:", calories)
+
+for minutes in calories_dict:
+    print("calories burned after", minutes, "minutes:", calories_dict[minutes])
 #calories_burned_1 = 10 * calories_minute
 #calories_burned_2 = 15 * calories_minute
 #calories_burned_3 = 20 * calories_minute
