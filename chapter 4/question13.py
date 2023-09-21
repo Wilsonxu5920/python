@@ -1,9 +1,8 @@
 dstarting_organisms = float(input("Enter the starting number of organisms: "))
-average_daily_increase = float(input("Enter the average daily population increase (as a percentage): "))
-number_of_days = int(input("Enter the number of days the organisms will be left to multiply: "))
+average_increase = float(input("Enter the average daily population increase (as a percentage): "))
+number_days = int(input("Enter the number of days the organisms will be left to multiply: "))
 current_population = dstarting_organisms
 print("DayApproximate Population")
-for day in range(1, number_of_days + 1):
-    population = round(current_population, 5)
+for day in range(1, number_days + 1):
+    population = dstarting_organisms * (1+average_increase**( day-1))
     print(day, population)
-    current_population += current_population * (average_daily_increase / 100)
