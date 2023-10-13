@@ -7,12 +7,11 @@ def seats_C(seats_C):
 seatsa_count = int(input("how mant ticket for class A of seat were sold "))
 seatsb_count = int(input("how mant ticket for class B of seat were sold "))
 seatsc_count = int(input("how mant ticket for class C of seat were sold "))
-def main():
-    seats_A()
 
+print(f"{seats_A(seatsa_count)}")
+print(f"{seats_A(seatsb_count)}")
+print(f"{seats_A(seatsc_count)}")       
+total_income= seatsa_count + seatsb_count + seatsc_count
+print(f"Total income from all seats: ${total_income}")
 
-        
-        
-        
-    
     
