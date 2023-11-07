@@ -1,3 +1,5 @@
-kilometers = int(input("enter the number of kilometers"))
-mile = kilometers * 0.6214
-print (mile,"miles")
+def kilometers_to_miles(kilometers):
+    miles = kilometers * 0.6214
+    return miles
+kilometers = float(input("Enter the number of kilometers: "))
+print(kilometers,"kilometers is equal to",kilometers_to_miles(kilometers), "miles")
