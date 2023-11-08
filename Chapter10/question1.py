@@ -1,3 +1,13 @@
+# Define a Pet class
+
+# Initialization method with private attributes: name, animal type, age
+# Retrieve the pet's name，typ，age
+# If it's the main program entry
+# Create an instance of the Pet class
+# Get the pet's name from user input and set the name
+# Get the type of animal 
+# Get the pet's age from user input and set the age
+
 class Pet:
     def __init__(self):
         self.__name = ""
