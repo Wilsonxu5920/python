@@ -1,3 +1,18 @@
+# Import the random module 
+# Define a dictionary with U.S. 
+# Define the quiz function
+# Initialize a counter for the number of correct answers.
+# Initialize a counter for the number of incorrect answers.
+# Begin an infinite loop
+# Select a random state 
+# Retrieve the corresponding capital for the chosen state.
+# Prompt the user for the capital of the randomly chosen state
+# Capture and format the user's input.
+# If the user types 'quit', exit the loop and end the quiz.
+# Check if the user's answer matches the correct capital.
+# Once the user quits, print the total number of correct and incorrect answers.
+# Check if this script is being run as the main program.
+# Greet the user and initiate the quiz function.
 import random
 
 state_capitals = {
