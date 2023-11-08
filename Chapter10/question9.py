@@ -1,3 +1,18 @@
+# Import the random module
+# Define a 'Question' class
+# Initialize a 'Question' object with the question text
+# Create a list of 'Question' objects
+# Define the main function to control the flow of the quiz game
+# Initialize score variables for player 1 and player 2 to zero
+# Loop through each question in the quiz
+# Display the prompt for player 1 and show the question
+# Inform player 1 if their answer was correct or incorrect
+# Repeat the same process for player 2
+# Display the prompt for player 2 and show the same question
+# Inform player 2 if their answer was correct or incorrect
+# Once all questions have been answered, display the end game message
+# Check if the script is the main program and if so, execute the main function to start the game
+
 import random
 
 class Question:
